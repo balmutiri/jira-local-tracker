@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Secrets & local data
+.env
+.env.*
+!.env.example
+/data/*
+!/data/.gitkeep
